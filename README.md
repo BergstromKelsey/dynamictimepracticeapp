@@ -4,5 +4,5 @@ Refreshing myself with all material learned in the University of Minnesota Web D
 A simple practice app, utilizing dynamic time, honing in on basic JavaScript knowledge and skill.
 
 
-![Screenshot ]()
-![Screenshot]()
+![Screenshot ](dynamicss1.png)
+![Screenshot](dynamicss2.png)
