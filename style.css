@@ -1,0 +1,56 @@
+body {
+    background-image: url("clock.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+header{
+    float:right;
+    margin-right:5%;
+    padding-right:5%;
+    padding-top:50px;
+    font-size:40px;
+  
+
+}
+
+#main{
+    margin-right:3%;
+    float:right;
+    padding-top:100px;
+    padding-right:5%;
+    padding-bottom:0px;
+
+
+}
+
+button{
+background-color:white;
+margin-left:90px;
+margin-top:5px;
+float:right;
+text-align:center;
+width:200px;
+height:30px;
+font-family: 'Julius Sans One', sans-serif;
+padding-bottom:0px;
+position: fixed;
+}
+
+.output{
+margin-right:5%;
+float:right;
+margin-top:30px;
+}
+
+button:hover{
+    background-color:transparent;
+    border-color: black;
+
+
+}
+
+button:focus {outline:0;}

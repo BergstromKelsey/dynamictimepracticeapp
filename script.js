@@ -12,14 +12,14 @@ function showOutput(){
     let message;
    
     if(cur>17){
-        message =+cur+":"+minutes+  " in the evening!";
+        message ="It is " + cur+":"+minutes+  " in the evening!";
     }
     else if (cur >12){
-        message =+cur+":"+minutes+   " in the afternoon";
+        message ="It is " + cur+":"+minutes+   " in the afternoon";
 
     }
     else if (cur >0){
-        message= +cur+":"+minutes+  " in the morning!";
+        message="It is " + cur+":"+minutes+  " in the morning!";
        
     }
     else{
@@ -27,6 +27,6 @@ function showOutput(){
 
     }
     
-    output.innerHTML= "<h1>"+message+"</h1>"
+    output.innerHTML= "<h2>"+message+"</h2>"
 
 }
